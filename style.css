@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+/* header section */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+}
+.nb{
+    font-size: 2.5em;
+}
+
+/* section layout */
+
+.container-box{
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    gap: 5px;
+    margin: 0 20px;
+    margin-bottom: 60px;
+}
+
+.container-box .box{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.box-name{
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+}
+
+.box-name-color{
+    color: red;
+}
+
+/* container two layout */
+
+.name{
+    display: ;
+    justify-content: end;
+}
